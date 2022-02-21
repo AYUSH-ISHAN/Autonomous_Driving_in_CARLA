@@ -63,6 +63,7 @@ print(os.getcwd())
 print(glob.glob('/home/colab/carla/PythonAPI/carla/dist/carla-0.9.10-py3.6-linux-x86_64.egg'))
 try:
     sys.path.append(glob.glob('/home/colab/carla/PythonAPI/carla/dist/carla-0.9.10-py3.6-linux-x86_64.egg')[0])
+    print("Ready to Go !!")
 except IndexError:
     print("Error")
     pass
