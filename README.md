@@ -10,6 +10,7 @@ Data Collector : https://github.com/enginBozkurt/CarlaSimulatorDataCollector
 
 # ROS :
 
+Coursera official implementation : https://github.com/qiaoxu123/Self-Driving-Cars <br>
 Without Autoware approach : https://github.com/maudzung/Self-Driving-Car-09-Programing-A-Real-Car <br>
 Blog related to Autoware https://rugved42.medium.com/path-planning-on-autoware-a-simulation-tool-part-3-3-2461343fab07<br>
 Integrating Autoware with CARLA https://github.com/carla-simulator/carla-autoware
