@@ -20,7 +20,7 @@ We used the method of Imitation learning to make the car an automated system in 
   </tr>
   <tr>
     <td>Cruise Control</td>
-    <td><img src="./cruise.jpeg" height="400" width="400"/></td>
+    <td><img src="./media_/cruise.jpeg" height="400" width="400"/></td>
   </tr>
     <tr>
     <td>Road Disturbance</td>
@@ -32,13 +32,14 @@ We used the method of Imitation learning to make the car an automated system in 
   </tr>
     <tr>
     <td>Multiple Disturbance</td>
-    <td><img src="./media_/Scene_3.jpg" height="400" width="400"/></td>
+    <td><img src="./media_/Scene_3.png" height="400" width="400"/></td>
   </tr>
 </table>
 
 <h4>Models architecture</h4>
 We used four different models for this purpose, the models which one want to use can be control by the argument "--scenario" as shown below<br>
-<img src = "./media_/args.png" align = "center"/><br>
+<br>
+<img src="./media_/arg.png" align="center"/>
 For model architcture, you can go this <a href ="https://github.com/AYUSH-ISHAN/Autonomous_Driving_in_CARLA/blob/main/carla_net.py">link</a>
 
 # Running the Code:
