@@ -48,7 +48,22 @@ We have defined loss function for scenario==1 as the Mean Squared Error loss for
 
 # Running the Code:
 
-To run the code, bash this command on the terminal.
+To run the code, bash this command on the terminal. You can change scenario as per your requirement.
 
-                $ python main.py --scenario 3    # or nay scenario number or any such argument can be put here.
+                $ python main.py    
+                --batch-size 1000
+                --scenario cruise_control
+                --workers 24
+                --speed-weight 1
+                --learning-rate 0.0001
+                --lr-gamma 0.5
+                --lr-step 10
+                --train-dir "/path/to/the/training_data"
+                --eval-dir "/path/to/the/eval_data"
+                --gpu 0
+                --id name_of_policy
+
+Check the training log through tensorboard.
+
+              $ tensorboard --logdir runs
                 
