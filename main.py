@@ -29,7 +29,7 @@ from helper import AverageMeter, save_checkpoint
 parser = argparse.ArgumentParser(description='Carla CIL training')
 parser.add_argument('-j', '--workers', default=4, type=int, metavar='N',
                     help='number of data loading workers (default: 4)')
-parser.add_argument('--scenario', default="default", type=str, 
+parser.add_argument('--scenario', default="cruise_control", type=str, 
                     help='type of scenario among all, road disturbance, two car collision, multi-car collision')
 parser.add_argument('--speed-weight', default=0.1, type=float,
                     help='speed weight')
