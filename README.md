@@ -42,6 +42,10 @@ We used four different models for this purpose, the models which one want to use
 <img src="./media_/arg.png" align="center"/>
 For model architcture, you can go this <a href ="https://github.com/AYUSH-ISHAN/Autonomous_Driving_in_CARLA/blob/main/carla_net.py">link</a>
 
+<h4>Loss Function</h4>
+We have defined loss function for scenario==1 as the Mean Squared Error loss for each branches, speed controller and uncertainity controller. While for other cases we did following as shown in image.
+<img src="./media_/loss.png" align="center"/>
+
 # Running the Code:
 
 To run the code, bash this command on the terminal.
