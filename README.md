@@ -3,6 +3,7 @@
 # Introduction:
 
 We all know that world of automated systems are going to rule this world in coming times. So, here is our project on autonomous driving using Carla.
+
 <img src = "./media_/carla.jpg" align="center"/>
 
 <h4>Dataset Used</h4>
