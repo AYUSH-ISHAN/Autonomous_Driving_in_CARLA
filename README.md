@@ -68,3 +68,6 @@ Check the training log through tensorboard.
 
               $ tensorboard --logdir runs
                 
+# References
+
+<a href="https://arxiv.org/pdf/1903.00821.pdf">Visual-based Autonomous Driving Deployment from a Stochastic and Uncertainty-aware Perspective</a>
